@@ -1,0 +1,98 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AssociativeDataset	datasets/__init__.py	/^from .associative import AssociativeDataset$/;"	i
+AssociativeDataset	datasets/associative.py	/^class AssociativeDataset(Dataset):$/;"	c	inherits:Dataset
+Bernoulli	datasets/ngram.py	/^from torch.distributions.bernoulli import Bernoulli$/;"	i
+Beta	datasets/ngram.py	/^from torch.distributions.beta import Beta$/;"	i
+Binomial	datasets/associative.py	/^from torch.distributions.binomial import Binomial$/;"	i
+Binomial	datasets/copy.py	/^from torch.distributions.binomial import Binomial$/;"	i
+Binomial	datasets/prioritysort.py	/^from torch.distributions.binomial import Binomial$/;"	i
+Binomial	datasets/repeatcopy.py	/^from torch.distributions.binomial import Binomial$/;"	i
+CopyDataset	datasets/__init__.py	/^from .copy import CopyDataset$/;"	i
+CopyDataset	datasets/copy.py	/^class CopyDataset(Dataset):$/;"	c	inherits:Dataset
+Dataset	datasets/associative.py	/^from torch.utils.data import Dataset$/;"	i
+Dataset	datasets/copy.py	/^from torch.utils.data import Dataset$/;"	i
+Dataset	datasets/ngram.py	/^from torch.utils.data import Dataset$/;"	i
+Dataset	datasets/prioritysort.py	/^from torch.utils.data import Dataset$/;"	i
+Dataset	datasets/repeatcopy.py	/^from torch.utils.data import Dataset$/;"	i
+F	modules/controller.py	/^import torch.nn.functional as F$/;"	i
+F	modules/head.py	/^import torch.nn.functional as F$/;"	i
+F	modules/memory.py	/^import torch.nn.functional as F$/;"	i
+NGram	datasets/__init__.py	/^from .ngram import NGram$/;"	i
+NGram	datasets/ngram.py	/^class NGram(Dataset):$/;"	c	inherits:Dataset
+NTM	__init__.py	/^from .ntm import NTM$/;"	i
+NTM	ntm.py	/^class NTM(nn.Module):$/;"	c	inherits:nn.Module
+NTM	tasks/__init__.py	/^from .ntm import NTM$/;"	i
+NTMController	modules/__init__.py	/^from .controller import NTMController$/;"	i
+NTMController	modules/controller.py	/^class NTMController(nn.Module):$/;"	c	inherits:nn.Module
+NTMController	ntm.py	/^from .modules.controller import NTMController$/;"	i
+NTMHead	modules/__init__.py	/^from .head import NTMHead$/;"	i
+NTMHead	modules/head.py	/^class NTMHead(nn.Module):$/;"	c	inherits:nn.Module
+NTMHead	ntm.py	/^from .modules.head import NTMHead$/;"	i
+NTMMemory	modules/__init__.py	/^from .memory import NTMMemory$/;"	i
+NTMMemory	modules/memory.py	/^class NTMMemory(nn.Module):$/;"	c	inherits:nn.Module
+NTMMemory	ntm.py	/^from .modules.memory import NTMMemory$/;"	i
+PrioritySort	datasets/__init__.py	/^from .prioritysort import PrioritySort/;"	i
+PrioritySort	datasets/prioritysort.py	/^class PrioritySort(Dataset):$/;"	c	inherits:Dataset
+RepeatCopyDataset	datasets/__init__.py	/^from .repeatcopy import RepeatCopyDataset$/;"	i
+RepeatCopyDataset	datasets/repeatcopy.py	/^class RepeatCopyDataset(Dataset):$/;"	c	inherits:Dataset
+Uniform	datasets/prioritysort.py	/^from torch.distributions.uniform import Uniform$/;"	i
+__getitem__	datasets/associative.py	/^    def __getitem__(self, idx):$/;"	m	class:AssociativeDataset	file:	access:private
+__getitem__	datasets/copy.py	/^    def __getitem__(self, idx):$/;"	m	class:CopyDataset	file:	access:private
+__getitem__	datasets/ngram.py	/^    def __getitem__(self, idx):$/;"	m	class:NGram	file:	access:private
+__getitem__	datasets/prioritysort.py	/^    def __getitem__(self, idx):$/;"	m	class:PrioritySort	file:	access:private
+__getitem__	datasets/repeatcopy.py	/^    def __getitem__(self, idx):$/;"	m	class:RepeatCopyDataset	file:	access:private
+__init__	datasets/associative.py	/^    def __init__(self, task_params):$/;"	m	class:AssociativeDataset	access:public
+__init__	datasets/copy.py	/^    def __init__(self, task_params):$/;"	m	class:CopyDataset	access:public
+__init__	datasets/ngram.py	/^    def __init__(self, task_params):$/;"	m	class:NGram	access:public
+__init__	datasets/prioritysort.py	/^    def __init__(self, task_params):$/;"	m	class:PrioritySort	access:public
+__init__	datasets/repeatcopy.py	/^    def __init__(self, task_params):$/;"	m	class:RepeatCopyDataset	access:public
+__init__	modules/controller.py	/^    def __init__(self, input_size, controller_size, output_size, read_data_size):$/;"	m	class:NTMController	access:public
+__init__	modules/head.py	/^    def __init__(self, mode, controller_size, key_size):$/;"	m	class:NTMHead	access:public
+__init__	modules/memory.py	/^    def __init__(self, memory_units, memory_unit_size):$/;"	m	class:NTMMemory	access:public
+__init__	ntm.py	/^    def __init__(self,$/;"	m	class:NTM	access:public
+__len__	datasets/associative.py	/^    def __len__(self):$/;"	m	class:AssociativeDataset	file:	access:private
+__len__	datasets/copy.py	/^    def __len__(self):$/;"	m	class:CopyDataset	file:	access:private
+__len__	datasets/ngram.py	/^    def __len__(self):$/;"	m	class:NGram	file:	access:private
+__len__	datasets/prioritysort.py	/^    def __len__(self):$/;"	m	class:PrioritySort	file:	access:private
+__len__	datasets/repeatcopy.py	/^    def __len__(self):$/;"	m	class:RepeatCopyDataset	file:	access:private
+_circular_conv1d	modules/head.py	/^    def _circular_conv1d(in_tensor, weights):$/;"	m	class:NTMHead	access:public
+argparse	args.py	/^import argparse$/;"	i
+content_addressing	modules/memory.py	/^    def content_addressing(self, key, key_strength):$/;"	m	class:NTMMemory	access:public
+forward	modules/controller.py	/^    def forward(self, in_data, prev_reads):$/;"	m	class:NTMController	access:public
+forward	modules/head.py	/^    def forward(self, controller_state, prev_weights, memory, data=None):$/;"	m	class:NTMHead	access:public
+forward	modules/memory.py	/^    def forward(self, *inputs):$/;"	m	class:NTMMemory	access:public
+forward	ntm.py	/^    def forward(self, in_data):$/;"	m	class:NTM	access:public
+get_parser	args.py	/^def get_parser():$/;"	f	access:public
+nn	modules/controller.py	/^from torch import nn$/;"	i
+nn	modules/controller.py	/^import torch.nn.functional as F$/;"	i
+nn	modules/head.py	/^from torch import nn$/;"	i
+nn	modules/head.py	/^import torch.nn.functional as F$/;"	i
+nn	modules/memory.py	/^from torch import nn$/;"	i
+nn	modules/memory.py	/^import torch.nn.functional as F$/;"	i
+nn	ntm.py	/^from torch import nn$/;"	i
+normalise	datasets/repeatcopy.py	/^    def normalise(self, rep):$/;"	m	class:RepeatCopyDataset	access:public
+np	datasets/repeatcopy.py	/^import numpy as np$/;"	i
+output	modules/controller.py	/^    def output(self, read_data):$/;"	m	class:NTMController	access:public
+read	modules/memory.py	/^    def read(self, weights):$/;"	m	class:NTMMemory	access:public
+reset	modules/controller.py	/^    def reset(self, batch_size=1):$/;"	m	class:NTMController	access:public
+reset	modules/head.py	/^    def reset(self):$/;"	m	class:NTMHead	access:public
+reset	modules/memory.py	/^    def reset(self, batch_size=1):$/;"	m	class:NTMMemory	access:public
+reset	ntm.py	/^    def reset(self, batch_size=1):$/;"	m	class:NTM	access:public
+torch	datasets/associative.py	/^import torch$/;"	i
+torch	datasets/copy.py	/^import torch$/;"	i
+torch	datasets/ngram.py	/^import torch$/;"	i
+torch	datasets/prioritysort.py	/^import torch$/;"	i
+torch	datasets/repeatcopy.py	/^import torch$/;"	i
+torch	modules/controller.py	/^import torch$/;"	i
+torch	modules/controller.py	/^import torch.nn.functional as F$/;"	i
+torch	modules/head.py	/^import torch$/;"	i
+torch	modules/head.py	/^import torch.nn.functional as F$/;"	i
+torch	modules/memory.py	/^import torch$/;"	i
+torch	modules/memory.py	/^import torch.nn.functional as F$/;"	i
+torch	ntm.py	/^import torch$/;"	i
+write	modules/memory.py	/^    def write(self, weights, data, erase=None):$/;"	m	class:NTMMemory	access:public

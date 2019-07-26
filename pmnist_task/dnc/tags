@@ -1,0 +1,186 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DNC	__init__.py	/^from .dnc import DNC$/;"	i
+DNC	dnc.py	/^class DNC(nn.Module):$/;"	c	inherits:nn.Module
+DNC	sam.py	/^from .dnc import DNC$/;"	i
+DNC	sdnc.py	/^from .dnc import DNC$/;"	i
+F	memory.py	/^import torch.nn.functional as F$/;"	i
+F	sparse_memory.py	/^import torch.nn.functional as F$/;"	i
+F	sparse_temporal_memory.py	/^import torch.nn.functional as F$/;"	i
+F	util.py	/^import torch.nn.functional as F$/;"	i
+FAISSIndex	faiss_index.py	/^class FAISSIndex(object):$/;"	c	inherits:object
+FAISSIndex	sparse_memory.py	/^        from .faiss_index import FAISSIndex$/;"	i
+FAISSIndex	sparse_temporal_memory.py	/^        from .faiss_index import FAISSIndex$/;"	i
+FLANNIndex	flann_index.py	/^class FLANNIndex(object):$/;"	c	inherits:object
+FLANNIndex	sparse_memory.py	/^        from .flann_index import FLANNIndex$/;"	i
+FLANNIndex	sparse_temporal_memory.py	/^        from .flann_index import FLANNIndex$/;"	i
+FLANNIndex	sparse_temporal_memory.py	/^from .flann_index import FLANNIndex$/;"	i
+Memory	__init__.py	/^from .memory import Memory$/;"	i
+Memory	memory.py	/^class Memory(nn.Module):$/;"	c	inherits:nn.Module
+PackedSequence	dnc.py	/^from torch.nn.utils.rnn import PackedSequence$/;"	i
+PackedSequence	sam.py	/^from torch.nn.utils.rnn import PackedSequence$/;"	i
+PackedSequence	sdnc.py	/^from torch.nn.utils.rnn import PackedSequence$/;"	i
+SAM	__init__.py	/^from .sam import SAM$/;"	i
+SAM	sam.py	/^class SAM(DNC):$/;"	c	inherits:DNC
+SDNC	__init__.py	/^from .sdnc import SDNC$/;"	i
+SDNC	sdnc.py	/^class SDNC(DNC):$/;"	c	inherits:DNC
+SparseMemory	__init__.py	/^from .sparse_memory import SparseMemory$/;"	i
+SparseMemory	sam.py	/^from .sparse_memory import SparseMemory$/;"	i
+SparseMemory	sparse_memory.py	/^class SparseMemory(nn.Module):$/;"	c	inherits:nn.Module
+SparseTemporalMemory	__init__.py	/^from .sparse_temporal_memory import SparseTemporalMemory$/;"	i
+SparseTemporalMemory	sdnc.py	/^from .sparse_temporal_memory import SparseTemporalMemory$/;"	i
+SparseTemporalMemory	sparse_temporal_memory.py	/^class SparseTemporalMemory(nn.Module):$/;"	c	inherits:nn.Module
+T	dnc.py	/^import torch as T$/;"	i
+T	flann_index.py	/^import torch as T$/;"	i
+T	memory.py	/^import torch as T$/;"	i
+T	sam.py	/^import torch as T$/;"	i
+T	sdnc.py	/^import torch as T$/;"	i
+T	sparse_memory.py	/^import torch as T$/;"	i
+T	sparse_temporal_memory.py	/^import torch as T$/;"	i
+T	util.py	/^import torch as T$/;"	i
+Variable	util.py	/^from torch.autograd import Variable$/;"	i
+__init__	dnc.py	/^  def __init__($/;"	m	class:DNC	access:public
+__init__	faiss_index.py	/^  def __init__(self, cell_size=20, nr_cells=1024, K=4, num_lists=32, probes=32, res=None, train=None, gpu_id=-1):$/;"	m	class:FAISSIndex	access:public
+__init__	flann_index.py	/^  def __init__(self, cell_size=20, nr_cells=1024, K=4, num_kdtrees=32, probes=32, gpu_id=-1):$/;"	m	class:FLANNIndex	access:public
+__init__	memory.py	/^  def __init__(self, input_size, mem_size=512, cell_size=32, read_heads=4, gpu_id=-1, independent_linears=True):$/;"	m	class:Memory	access:public
+__init__	sam.py	/^  def __init__($/;"	m	class:SAM	access:public
+__init__	sdnc.py	/^  def __init__($/;"	m	class:SDNC	access:public
+__init__	sparse_memory.py	/^  def __init__($/;"	m	class:SparseMemory	access:public
+__init__	sparse_temporal_memory.py	/^  def __init__($/;"	m	class:SparseTemporalMemory	access:public
+__repr__	dnc.py	/^  def __repr__(self):$/;"	m	class:DNC	file:	access:private
+_debug	dnc.py	/^  def _debug(self, mhx, debug_obj):$/;"	m	class:DNC	access:public
+_debug	sam.py	/^  def _debug(self, mhx, debug_obj):$/;"	m	class:SAM	access:public
+_debug	sdnc.py	/^  def _debug(self, mhx, debug_obj):$/;"	m	class:SDNC	access:public
+_init_hidden	dnc.py	/^  def _init_hidden(self, hx, batch_size, reset_experience):$/;"	m	class:DNC	access:public
+_layer_forward	dnc.py	/^  def _layer_forward(self, input, layer, hx=(None, None), pass_through_memory=True):$/;"	m	class:DNC	access:public
+a_norm	util.py	/^  a_norm = T.norm(a, normBy, dimA, keepdim=True).expand_as(a) + δ$/;"	v
+add	faiss_index.py	/^  def add(self, other, positions=None, last=None):$/;"	m	class:FAISSIndex	access:public
+add	flann_index.py	/^  def add(self, other, positions=None, last=-1):$/;"	m	class:FLANNIndex	access:public
+allocate	memory.py	/^  def allocate(self, usage, write_gate):$/;"	m	class:Memory	access:public
+apply_dict	util.py	/^def apply_dict(dic):$/;"	f	access:public
+apply_var	util.py	/^def apply_var(v, k):$/;"	f	access:public
+b_norm	util.py	/^  b_norm = T.norm(b, normBy, dimB, keepdim=True).expand_as(b) + δ$/;"	v
+cast_float	faiss_index.py	/^from faiss import cast_integer_to_float_ptr as cast_float$/;"	i
+cast_int	faiss_index.py	/^from faiss import cast_integer_to_int_ptr as cast_int$/;"	i
+cast_long	faiss_index.py	/^from faiss import cast_integer_to_long_ptr as cast_long$/;"	i
+check_grad	util.py	/^  def check_grad(module, grad_input, grad_output):$/;"	f	function:register_nan_checks	access:public
+check_nan_gradient	util.py	/^def check_nan_gradient(name=''):$/;"	f	access:public
+content_weightings	memory.py	/^  def content_weightings(self, memory, keys, strengths):$/;"	m	class:Memory	access:public
+cuda	faiss_index.py	/^  def cuda(self, gpu_id):$/;"	m	class:FAISSIndex	access:public
+cuda	util.py	/^def cuda(x, grad=False, gpu_id=-1):$/;"	f	access:public
+cudalong	util.py	/^def cudalong(x, grad=False, gpu_id=-1):$/;"	f	access:public
+cudavec	util.py	/^def cudavec(x, grad=False, gpu_id=-1):$/;"	f	access:public
+directional_weightings	memory.py	/^  def directional_weightings(self, link_matrix, read_weights):$/;"	m	class:Memory	access:public
+directional_weightings	sparse_temporal_memory.py	/^  def directional_weightings(self, link_matrix, rev_link_matrix, temporal_read_weights):$/;"	m	class:SparseTemporalMemory	access:public
+ensure_gpu	util.py	/^def ensure_gpu(tensor, gpu_id):$/;"	f	access:public
+f	util.py	/^  def f(tensor):$/;"	f	function:check_nan_gradient	access:public
+faiss	faiss_index.py	/^import faiss$/;"	i
+forward	dnc.py	/^  def forward(self, input, hx=(None, None, None), reset_experience=False, pass_through_memory=True):$/;"	m	class:DNC	access:public
+forward	memory.py	/^  def forward(self, ξ, hidden):$/;"	m	class:Memory	access:public
+forward	sparse_memory.py	/^  def forward(self, ξ, hidden):$/;"	m	class:SparseMemory	access:public
+forward	sparse_temporal_memory.py	/^  def forward(self, ξ, hidden):$/;"	m	class:SparseTemporalMemory	access:public
+get_link_matrix	memory.py	/^  def get_link_matrix(self, link_matrix, write_weights, precedence):$/;"	m	class:Memory	access:public
+get_usage_vector	memory.py	/^  def get_usage_vector(self, usage, free_gates, read_weights, write_weights):$/;"	m	class:Memory	access:public
+input_2d	util.py	/^  input_2d = trans_input.contiguous().view(-1, trans_size[-1])$/;"	v
+input_size	util.py	/^  input_size = input.size()$/;"	v
+math	sparse_memory.py	/^import math$/;"	i
+math	sparse_temporal_memory.py	/^import math$/;"	i
+nn	dnc.py	/^import torch.nn as nn$/;"	i
+nn	flann_index.py	/^import torch.nn as nn$/;"	i
+nn	memory.py	/^import torch.nn as nn$/;"	i
+nn	memory.py	/^import torch.nn.functional as F$/;"	i
+nn	sam.py	/^import torch.nn as nn$/;"	i
+nn	sdnc.py	/^import torch.nn as nn$/;"	i
+nn	sparse_memory.py	/^import torch.nn as nn$/;"	i
+nn	sparse_memory.py	/^import torch.nn.functional as F$/;"	i
+nn	sparse_temporal_memory.py	/^import torch.nn as nn$/;"	i
+nn	sparse_temporal_memory.py	/^import torch.nn.functional as F$/;"	i
+nn	util.py	/^import torch.nn as nn$/;"	i
+nn	util.py	/^import torch.nn.functional as F$/;"	i
+np	dnc.py	/^import numpy as np$/;"	i
+np	flann_index.py	/^import numpy as np$/;"	i
+np	memory.py	/^import numpy as np$/;"	i
+np	sam.py	/^import numpy as np$/;"	i
+np	sdnc.py	/^import numpy as np$/;"	i
+np	sparse_memory.py	/^import numpy as np$/;"	i
+np	sparse_temporal_memory.py	/^import numpy as np$/;"	i
+np	util.py	/^import numpy as np$/;"	i
+orthogonal	dnc.py	/^from torch.nn.init import orthogonal, xavier_uniform$/;"	i
+orthogonal	sam.py	/^from torch.nn.init import orthogonal, xavier_uniform$/;"	i
+orthogonal	sdnc.py	/^from torch.nn.init import orthogonal, xavier_uniform$/;"	i
+pack	dnc.py	/^from torch.nn.utils.rnn import pack_padded_sequence as pack$/;"	i
+pack	sam.py	/^from torch.nn.utils.rnn import pack_padded_sequence as pack$/;"	i
+pack	sdnc.py	/^from torch.nn.utils.rnn import pack_padded_sequence as pack$/;"	i
+pad	dnc.py	/^from torch.nn.utils.rnn import pad_packed_sequence as pad$/;"	i
+pad	sam.py	/^from torch.nn.utils.rnn import pad_packed_sequence as pad$/;"	i
+pad	sdnc.py	/^from torch.nn.utils.rnn import pad_packed_sequence as pad$/;"	i
+print_gradient	util.py	/^def print_gradient(x, name):$/;"	f	access:public
+ptr	util.py	/^def ptr(tensor):$/;"	f	access:public
+re	util.py	/^import re$/;"	i
+read	memory.py	/^  def read(self, read_keys, read_strengths, read_modes, hidden):$/;"	m	class:Memory	access:public
+read	sparse_memory.py	/^  def read(self, read_query, hidden):$/;"	m	class:SparseMemory	access:public
+read	sparse_temporal_memory.py	/^  def read(self, read_query, hidden):$/;"	m	class:SparseTemporalMemory	access:public
+read_from_sparse_memory	sparse_memory.py	/^  def read_from_sparse_memory(self, memory, indexes, keys, least_used_mem, usage):$/;"	m	class:SparseMemory	access:public
+read_from_sparse_memory	sparse_temporal_memory.py	/^  def read_from_sparse_memory(self, memory, indexes, keys, least_used_mem, usage, forward, backward, prev_read_positions):$/;"	m	class:SparseTemporalMemory	access:public
+read_vectors	memory.py	/^  def read_vectors(self, memory, read_weights):$/;"	m	class:Memory	access:public
+read_weightings	memory.py	/^  def read_weightings(self, memory, content_weights, link_matrix, read_modes, read_weights):$/;"	m	class:Memory	access:public
+rebuild_indexes	sparse_memory.py	/^  def rebuild_indexes(self, hidden, erase=False):$/;"	m	class:SparseMemory	access:public
+rebuild_indexes	sparse_temporal_memory.py	/^  def rebuild_indexes(self, hidden, erase=False):$/;"	m	class:SparseTemporalMemory	access:public
+recursiveTrace	util.py	/^def recursiveTrace(obj):$/;"	f	access:public
+register_nan_checks	util.py	/^def register_nan_checks(model):$/;"	f	access:public
+reset	faiss_index.py	/^  def reset(self):$/;"	m	class:FAISSIndex	access:public
+reset	flann_index.py	/^  def reset(self):$/;"	m	class:FLANNIndex	access:public
+reset	memory.py	/^  def reset(self, batch_size=1, hidden=None, erase=True):$/;"	m	class:Memory	access:public
+reset	sparse_memory.py	/^  def reset(self, batch_size=1, hidden=None, erase=True):$/;"	m	class:SparseMemory	access:public
+reset	sparse_temporal_memory.py	/^  def reset(self, batch_size=1, hidden=None, erase=True):$/;"	m	class:SparseTemporalMemory	access:public
+search	faiss_index.py	/^  def search(self, query, k=None):$/;"	m	class:FAISSIndex	access:public
+search	flann_index.py	/^  def search(self, query, k=None):$/;"	m	class:FLANNIndex	access:public
+soft_max_2d	util.py	/^    soft_max_2d = F.softmax(input_2d)$/;"	v
+soft_max_2d	util.py	/^    soft_max_2d = F.softmax(input_2d, -1)$/;"	v
+soft_max_nd	util.py	/^  soft_max_nd = soft_max_2d.view(*trans_size)$/;"	v
+string	util.py	/^import string$/;"	i
+time	sparse_memory.py	/^import time$/;"	i
+time	sparse_temporal_memory.py	/^import time$/;"	i
+torch	dnc.py	/^import torch.nn as nn$/;"	i
+torch	flann_index.py	/^import torch.nn as nn$/;"	i
+torch	memory.py	/^import torch.nn as nn$/;"	i
+torch	memory.py	/^import torch.nn.functional as F$/;"	i
+torch	sam.py	/^import torch.nn as nn$/;"	i
+torch	sdnc.py	/^import torch.nn as nn$/;"	i
+torch	sparse_memory.py	/^import torch.nn as nn$/;"	i
+torch	sparse_memory.py	/^import torch.nn.functional as F$/;"	i
+torch	sparse_temporal_memory.py	/^import torch.nn as nn$/;"	i
+torch	sparse_temporal_memory.py	/^import torch.nn.functional as F$/;"	i
+torch	util.py	/^import torch$/;"	i
+torch	util.py	/^import torch.nn as nn$/;"	i
+torch	util.py	/^import torch.nn.functional as F$/;"	i
+train	faiss_index.py	/^  def train(self, train):$/;"	m	class:FAISSIndex	access:public
+trans_input	util.py	/^  trans_input = input.transpose(axis, len(input_size) - 1)$/;"	v
+trans_size	util.py	/^  trans_size = trans_input.size()$/;"	v
+update_link_matrices	sparse_temporal_memory.py	/^  def update_link_matrices(self, link_matrix, rev_link_matrix, write_weights, precedence, temporal_read_positions):$/;"	m	class:SparseTemporalMemory	access:public
+update_precedence	memory.py	/^  def update_precedence(self, precedence, write_weights):$/;"	m	class:Memory	access:public
+update_precedence	sparse_temporal_memory.py	/^  def update_precedence(self, precedence, write_weights):$/;"	m	class:SparseTemporalMemory	access:public
+update_usage	sparse_memory.py	/^  def update_usage(self, read_positions, read_weights, write_weights, usage):$/;"	m	class:SparseMemory	access:public
+update_usage	sparse_temporal_memory.py	/^  def update_usage(self, read_positions, read_weights, write_weights, usage):$/;"	m	class:SparseTemporalMemory	access:public
+var	dnc.py	/^from torch.autograd import Variable as var$/;"	i
+var	flann_index.py	/^from torch.autograd import Variable as var$/;"	i
+var	memory.py	/^from torch.autograd import Variable as var$/;"	i
+var	sam.py	/^from torch.autograd import Variable as var$/;"	i
+var	sdnc.py	/^from torch.autograd import Variable as var$/;"	i
+var	sparse_memory.py	/^from torch.autograd import Variable as var$/;"	i
+var	sparse_temporal_memory.py	/^from torch.autograd import Variable as var$/;"	i
+var	util.py	/^from torch.autograd import Variable as var$/;"	i
+write	memory.py	/^  def write(self, write_key, write_vector, erase_vector, free_gates, read_strengths, write_strength, write_gate, allocation_gate, hidden):$/;"	m	class:Memory	access:public
+write	sparse_memory.py	/^  def write(self, interpolation_gate, write_vector, write_gate, hidden):$/;"	m	class:SparseMemory	access:public
+write	sparse_temporal_memory.py	/^  def write(self, interpolation_gate, write_vector, write_gate, hidden):$/;"	m	class:SparseTemporalMemory	access:public
+write_into_sparse_memory	sparse_memory.py	/^  def write_into_sparse_memory(self, hidden):$/;"	m	class:SparseMemory	access:public
+write_into_sparse_memory	sparse_temporal_memory.py	/^  def write_into_sparse_memory(self, hidden):$/;"	m	class:SparseTemporalMemory	access:public
+write_weighting	memory.py	/^  def write_weighting(self, memory, write_content_weights, allocation_weights, write_gate, allocation_gate):$/;"	m	class:Memory	access:public
+x	util.py	/^  x = T.bmm(a, b.transpose(1, 2)).transpose(1, 2) \/ ($/;"	v
+xavier_uniform	dnc.py	/^from torch.nn.init import orthogonal, xavier_uniform$/;"	i
+xavier_uniform	sam.py	/^from torch.nn.init import orthogonal, xavier_uniform$/;"	i
+xavier_uniform	sdnc.py	/^from torch.nn.init import orthogonal, xavier_uniform$/;"	i
